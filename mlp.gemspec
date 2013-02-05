@@ -8,8 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = Mlp::VERSION
   gem.authors       = ["Vladimir Pouzanov"]
   gem.email         = ["farcaller@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = "My Litte Production: Frontends, Instances, Metadata is" +
+                      "a tiniy gem to manage production environment in a simple way"
+  gem.summary       = "Tiny gem to manage production environment in a simple way"
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
